@@ -1,0 +1,56 @@
+/*
+	Name : admin.scss
+	Destination File : admin.css
+*/
+.logo {
+  padding: 20px; }
+
+.error .error-message {
+  color: #ef5350; }
+
+.mini-sidebar .user-profile {
+  padding: 0; }
+  .mini-sidebar .user-profile .logo {
+    padding: 10px; }
+
+.mini-sidebar .sidebar-nav .nav-devider {
+  margin: 0; }
+
+.dataTables_wrapper li.active a, .dataTables_paginate li.active a {
+  color: #FFFFFF; }
+
+.dataTables_wrapper li a, .dataTables_paginate li a {
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  text-align: center;
+  cursor: pointer;
+  color: #67757c;
+  border: 1px solid #dddddd; }
+
+.dataTables_wrapper li.page-filter select, .dataTables_paginate li.page-filter select {
+  min-height: 42px; }
+
+.modal-header {
+  background-color: #1976d2; }
+  .modal-header h4, .modal-header .close {
+    color: #FFFFFF; }
+
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto; }
+  @media (max-width: 768px) {
+    .modal-dialog {
+      min-height: calc(100vh - 20px); } }
+  .modal-dialog .close {
+    cursor: pointer; }
+
+.dropdown-menu {
+  z-index: 10; }
+
+.sad {
+  top: 10px;
+  bottom: 10px; }

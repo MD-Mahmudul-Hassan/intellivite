@@ -1,0 +1,115 @@
+/*
+    Name : style.scss
+    Destination File : style.css
+*/
+.user-form-top {
+  margin-top: 100px; }
+
+.form-border-shadow {
+  box-shadow: 0px 0px 5px grey;
+  padding: 10px; }
+
+.checkout-header-margin {
+  margin-top: 50px; }
+
+.checkout-footer-margin {
+  margin-bottom: 50px; }
+
+#checkout-form .form-control .card-expiration {
+  border: 1px solid #bbbbbb;
+  text-align: center; }
+
+.error, .error-message {
+  color: red; }
+
+body {
+  height: 100% !important;
+  min-height: 1000px !important; }
+
+.dashboard-margin {
+  margin-top: 30px; }
+
+.dashboard-subtitle {
+  font-size: 14px; }
+
+.questionnaire-container {
+  background-color: #fff;
+  padding: 0px;
+  border: 1px solid #26DAD2;
+  box-shadow: 0px 1px 0px 1px lightgrey; }
+
+.questionnaire-title {
+  padding: 20px; }
+
+.questionaire-form-container {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20%; }
+
+.form-warning-text {
+  color: #ef5350 !important; }
+
+.success {
+  color: #00bc4e !important; }
+
+.questionnaire-cover-image {
+  width: 100%; }
+
+.title-border-bottom {
+  border-bottom: 1px solid #1775CE; }
+
+.personalized-supplements-img {
+  width: 260px;
+  margin-right: 100px; }
+
+.supplements-tab-title {
+  font-size: 17px; }
+
+.tab-margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.accordion-background {
+  padding: 30px 40px 20px 40px; }
+
+.background-pattern {
+  background-repeat: no-repeat !important;
+  background-position: top center !important; }
+
+.accordion-description {
+  padding: 0px 40px 20px 40px; }
+
+.fa.accordion-expand-icon {
+  font-size: 25px !important; }
+
+.supplement-title {
+  color: #000000; }
+
+.supplement-subtitle {
+  line-height: 10px; }
+
+.supplement-learn-more {
+  margin-top: 20px !important; }
+
+.user-profile-container {
+  position: absolute;
+  transform: translate3d(0px, 39px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform; }
+
+.overview-image {
+  max-width: 300px; }
+
+.overview-nutrition {
+  max-width: 350px;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.m-t-50 {
+  margin-top: 30px; }
+
+.required-asteric {
+  color: red; }
+
+.error-message {
+  color: red; }

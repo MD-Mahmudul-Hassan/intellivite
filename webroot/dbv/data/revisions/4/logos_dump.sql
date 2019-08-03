@@ -1,0 +1,2 @@
+INSERT INTO `logos` (`id`, `photo`, `photo_dir`, `photo_size`, `photo_type`, `created`, `modified`) VALUES
+(26, 'logo.jpg', 'webroot\\files\\Logos\\photo\\', '7407', 'image/jpeg', '2018-04-18 15:46:20', '2018-04-18 11:16:06');

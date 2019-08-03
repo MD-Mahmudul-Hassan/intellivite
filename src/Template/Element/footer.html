@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Keep this inline. More help: https://github.com/wkhtmltopdf/wkhtmltopdf/issues/3071#issuecomment-239982578-->
+        <script>
+            function subst() {
+            var vars={};
+            var x=window.location.search.substring(1).split('&');
+            for (var i in x) {var z=x[i].split('=',2);vars[z[0]] = unescape(z[1]);}
+                var x=['date', 'time'];
+                for (var i in x) {
+                    var y = document.getElementsByClassName(x[i]);
+                    for (var j=0; j<y.length; ++j) y[j].textContent = vars[x[i]];
+                }
+            }
+        </script>
+    </head>
+    <body style="border-bottom: 2px solid black; margin: 0;" onload="subst()">
+        <p>This report was printed on: <span class="date">&nbsp;</span><span class="time"></span></p>
+    </body>
+</html>

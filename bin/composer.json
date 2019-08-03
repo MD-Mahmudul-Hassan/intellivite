@@ -1,0 +1,5 @@
+{
+    "require": {
+        "davidyell/proffer": "^0.8"
+    }
+}
