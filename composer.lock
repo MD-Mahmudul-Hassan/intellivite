@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9cd16f87cae2703276620f7a8e81743",
+    "content-hash": "3e0eee4bd4ff8f48479b999b490a3126",
     "packages": [
         {
             "name": "aura/intl",
